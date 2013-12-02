@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alternating Image Layout Demo</title>
+	<link rel="stylesheet" type="text/css" href="alternating-image-layout.css">
+	<style>
+		* {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+			font-size: 13px;
+			color: #666;
+			margin: 0;
+			padding: 0;
+		}
+		h1, h2 {
+			color: #333;
+		}
+		.contain {
+			margin: 1em;
+		}
+		.container {
+			max-width: 70em;
+			margin: auto;
+		}
+		@media screen and (min-width: 60em){
+			body {
+				font-size: 16px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="contain">
+			<h1>Alternating Image Layout Demo</h1>
+			<p>Responsive mobile-first layout. Try resizing the browser and watch the layout reflow. Single column layout (default) for smaller screens. Two column alternating image layout for larger screens. This is a popular layout from Apple for showcasing product features.</p>
+		</div>
+		<div style="margin: 2em 0 2em 0">&nbsp;</div>
+		<div class="alternating-layout-container">
+			<hr>
+			<div class="alternating-layout-row">
+				<div class="alternating-layout-img">
+					<img src="img0.png">
+				</div>
+				<div class="alternating-layout-desc">
+					<h2>Up to 12 hours of battery life.</h2>
+					<h3>It won't call it a day until you do.</h3>
+					<p>The 11-inch MacBook Air now lasts up to 9 hours between charges and the 13-inch model lasts up to an incredible 12 hours. So from your morning coffee till your evening commute, you can work unplugged. When it's time to kick back and relax, you can get up to 8 hours of iTunes movie playback on the 11-inch model and up to 10 hours on the 13-inch model. And with up to 30 days of standby time, you can go away for weeks and pick up right where you left off.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="alternating-layout-row">
+				<div class="alternating-layout-img">
+					<img src="img1.png">
+				</div>
+				<div class="alternating-layout-desc">
+					<h2>New 802.11ac Wi-Fi support.</h2>
+					<h3>The next generation of wireless.</h3>
+					<p>With the latest 802.11ac technology, MacBook Air takes
+					Wi-Fi speeds over the top. Connect to an 802.11ac base station - including the new AirPort Extreme or AirPort Time Capsule - and experience wireless performance up to 3x faster than the previous generation. 802.11ac also delivers expanded range, so you can work more freely than ever.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="alternating-layout-row">
+				<div class="alternating-layout-img">
+					<img src="img2.png">
+				</div>
+				<div class="alternating-layout-desc">
+					<h2>Faster all-flash storage.</h2>
+					<h3>Ready. Set. Done.</h3>
+					<p>Flash storage in MacBook Air is now up to 45 percent faster than the previous generation. So everything you do is snappier and more responsive. MacBook Air even wakes up faster than ever, thanks to flash storage and the latest Intel Core processors. And now the 11-inch model comes standard with twice the capacity - 128GB - yet still starts at $999.</p>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div style="margin: 2em 0 2em 0">&nbsp;</div>
+	</div>
+</body>
+</html>
