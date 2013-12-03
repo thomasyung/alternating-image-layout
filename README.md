@@ -8,9 +8,7 @@ Usage:
 
 Include this snippet in your html head:
 ```html
-<pre>
 <link rel="stylesheet" type="text/css" href="alternating-image-layout.css">
-</pre>
 ```
 
 Take a look at the index.html file to see how to format your HTML divs. Essentially, you need several div containers with our custom classes wrapped around the content you wish to display.
