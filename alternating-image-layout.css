@@ -12,7 +12,7 @@
 	border-right: none;
 	border-left: none;
 }
-.alternating-layout-row:nth-last-child(1) {
+.alternating-layout-row:nth-last-child(2) {
 	border-bottom: 1px solid #92C0E0;
 }
 .alternating-layout-img, .alternating-layout-desc {
