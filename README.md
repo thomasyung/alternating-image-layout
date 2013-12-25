@@ -1,7 +1,7 @@
 alternating-image-layout
 ========================
 
-A Simple CSS include and style classes allows you to setup a page layout similar to Apple's product description pages where the product image and product description placement is alternated between left and right columns for every row. Check out the demo at: http://thomasyung.com/alternating-image-layout
+A Simple CSS include and style classes allows you to setup a page layout similar to Apple's product description pages where the product image and product description placement is alternated between left and right columns for every row. Check out the demo at: http://thomasyung.com/labs/alternating-image-layout
 
 Usage:
 ------
